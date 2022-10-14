@@ -8,13 +8,16 @@
 
     <title>Document</title>
   </head>
-  <body onload="DefaultScreen()">
-    <center>
-      <h1 id="Para1">5 Days Weather Forecast</h1>
-      <p id="inputContainer">City: <input type="text" id="cityInput" /></p>
-      <button type="button" onclick="GetInfo()">Click Me</button>
-      <h2 id="cityName">---London---</h2>
-    </center>
+  <body 
+  <section
+  onload="DefaultScreen()">
+    <h1 id="Para1" class="name">5 Days Weather Forecast</h1>
+    <div class="box"> 
+    <p class="submit-btn id="inputContainer">CITY: <input type="text" id="cityInput" /></p>
+    <button class="submit-btn" type="button" onclick="GetInfo()">SUBMIT</button>
+    <h2 id="cityName">---CITY NAME---</h2>
+</div>
+    </section>
 
     <div id="weatherContainer">
       <div id="iconsContainer">
